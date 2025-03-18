@@ -1,8 +1,10 @@
 :root {
+    font-family:Arial, Helvetica, sans-serif;
+
     --color-background: #e0e0e0;
     --color-background-secondary: #f0f0f0;
     --color-text: #272727;
     --color-text-impact: #000;
     --color-accent: #a8fd5e;
-    --color-accent-secondary: #7fc046;
+    --color-accent-secondary: #8cd64c;
 }
