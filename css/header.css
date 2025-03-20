@@ -43,16 +43,16 @@ header {
     transition:0.2s;
 }
 .header-links .header-links__item.bold a {
-    background-color: var(--color-accent-secondary);
+    background-color: var(--color-background-secondary);
     font-weight:bold;
 }
 .header-links .header-links__item.bold a:hover {
-    border:0.1rem solid var(--color-accent-secondary);
+    border:0.1rem solid var(--color-background-secondary);
     background-color: var(--color-accent);
 }
 .header-links a:hover {
-    background-color: var(--color-accent-secondary);
-    border:0.1rem solid var(--color-accent-secondary);
+    background-color: var(--color-background-secondary);
+    border:0.1rem solid var(--color-background-secondary);
     padding: 0.4rem;
     box-shadow: 0 0 20px #0000001f;
 }
