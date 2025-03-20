@@ -34,9 +34,8 @@ header {
 }
 .header-links a {
     background-color: var(--color-accent);
-    border:0.1rem solid var(--color-accent-secondary);
+    border:0.1rem solid var(--color-accent);
     color:var(--color-text-impact);
-    font-weight:bold;
     padding: 0.4rem;
     border-radius:0.5rem;
     text-decoration: none;
@@ -45,17 +44,21 @@ header {
 }
 .header-links .header-links__item.bold a {
     background-color: var(--color-accent-secondary);
+    font-weight:bold;
 }
 .header-links .header-links__item.bold a:hover {
+    border:0.1rem solid var(--color-accent-secondary);
     background-color: var(--color-accent);
 }
 .header-links a:hover {
     background-color: var(--color-accent-secondary);
+    border:0.1rem solid var(--color-accent-secondary);
     padding: 0.4rem;
+    box-shadow: 0 0 20px #0000001f;
 }
 .header-links__item.submenu {
     padding: 0;
 }
 .header-links__item.submenu .header-links {
-    margin:0;
+    margin:0 0 0 2rem;;
 }

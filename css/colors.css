@@ -1,10 +1,12 @@
 :root {
     font-family:Arial, Helvetica, sans-serif;
 
-    --color-background: #e0e0e0;
-    --color-background-secondary: #f0f0f0;
-    --color-text: #272727;
-    --color-text-impact: #000;
-    --color-accent: #a8fd5e;
-    --color-accent-secondary: #8cd64c;
+    --color-background: #F5F5F5;
+    --color-background-secondary: #F9F4A2;
+    --color-text: #2b2b2b;
+    --color-text-impact: #000000;
+    --color-accent: #F02D34;
+    --color-accent-secondary: #64ECF9;
 }
+
+/*  F5F5F5, 64ECF9, F02D34, FAD07C, F9F4A2 */
