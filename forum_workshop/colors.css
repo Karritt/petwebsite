@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background: #ddd;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+input, textarea {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    background: #eee;
+}
+
+button {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: not-allowed;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: white;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.thread-title {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.thread-author {
+    font-style: italic;
+    font-size: 0.9em;
+    color: #555;
+}
