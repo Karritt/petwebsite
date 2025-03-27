@@ -4,17 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Petwebsite - Subpage</title>
+    <link rel="stylesheet" href="/css/colors.css">
+    <link rel="stylesheet" href="/css/header.css">
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f8f8f8;
+        }
+        main {
             display: flex;
             flex-direction: column;
             align-items: center;
         }
-        .login-button {
+        /* .login-button {
             position: absolute;
             top: 20px;
             right: 20px;
@@ -27,7 +31,7 @@
         }
         .login-button:hover {
             background-color: #333;
-        }
+        } */
         .container {
             display: flex;
             justify-content: center;
@@ -97,7 +101,29 @@
     </style>
 </head>
 <body>
-    <button class="login-button" onclick="login()">Log In</button>
+    <header>
+        <div class="header-bar">
+            <div class="header-bar__left">
+                <h2>Taskling</h2>
+            </div>
+            <div class="header-bar__right">
+                <ul class="header-links">
+                    <li class="header-links__item"><a href="about.html">About</a></li>
+                    <li class="header-links__item"><a href="contact.html">Contact</a></li>
+                    <li class="header-links__item"><a href="forum.html">Forum</a></li>
+                    <li class="header-links__item submenu">
+                        <ul id="account-info" class="header-links">
+                            <!-- replace this content if the user is logged in - #account-info -->
+                            <li class="header-links__item bold"><a href="login.html">Log In</a></li>
+                            <li class="header-links__item bold"><a href="signup.html">Sign Up</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- <button class="login-button" onclick="login()">Log In</button> -->
+    <main>
     <div class="container">
         <div class="info-box">
             <h2>Information</h2>
@@ -113,31 +139,6 @@
             <p id="message" style="color: green; text-align: center;"></p>
         </div>
     </div>
-    <div class="footer">
-        <a href="#">Form</a> | <a href="#">Contact Us</a>
-        <div class="footer-icons">
-            <img src="instagram.png" alt="Instagram">
-            <img src="facebook.png" alt="Facebook">
-            <img src="twitter.png" alt="Twitter">
-        </div>
-    </div>
-    <script>
-        function createAccount() {
-            var username = document.getElementById('username').value;
-            var email = document.getElementById('email').value;
-            var password = document.getElementById('password').value;
-            
-            if (username && email && password) {
-                document.getElementById('message').innerText = 'Account created successfully!';
-            } else {
-                document.getElementById('message').style.color = 'red';
-                document.getElementById('message').innerText = 'Please fill in all fields.';
-            }
-        }
-        
-        function login() {
-            window.location.href = 'login.html';
-        }
-    </script>
+    </main>
 </body>
 </html>

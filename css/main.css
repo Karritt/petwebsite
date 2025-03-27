@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.centered {
+    max-width: 50rem;
+    margin: auto;
+    padding: 0 1rem;
+}
+.centered-wide {
+    max-width: 60rem;
+    margin: auto;
+    padding: 0 1rem;
+}
+
+.split {
+    display:flex;
+    justify-content: space-between;
+    gap:2rem;
+}
+.hero-pet {
+    height:20rem;
+    width:20rem;
+}
+.hero-pet img {
+    height:20rem;
+    width:20rem;
+}
+
+.button-bar {
+    display: flex;
+    justify-content: left;
+    gap: 2rem;
+    margin-top: 1rem;
+    list-style-type: none;
+    padding:0;
+}
+.button-bar li a{
+    padding:0;
+    border-radius: 0;
+}
+.button-bar li a img {
+    height:4rem;
+}
+
+.cards div {
+    width: 20rem;
+}

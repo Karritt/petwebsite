@@ -4,8 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Petwebsite | Home</title>
+    <link rel="stylesheet" href="/css/colors.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
-    
+    <header>
+        <div class="header-bar">
+            <div class="header-bar__left">
+                <h2>Taskling</h2>
+            </div>
+            <div class="header-bar__right">
+                <ul class="header-links">
+                    <li class="header-links__item"><a href="about.html">About</a></li>
+                    <li class="header-links__item"><a href="contact.html">Contact</a></li>
+                    <li class="header-links__item"><a href="forum.html">Forum</a></li>
+                    <li class="header-links__item submenu">
+                        <ul id="account-info" class="header-links">
+                            <!-- replace this content if the user is logged in - #account-info -->
+                            <li class="header-links__item bold"><a href="login.html">Log In</a></li>
+                            <li class="header-links__item bold"><a href="signup.html">Sign Up</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="centered split">
+            <div class="left">
+                <h1>TaskTama.</h1>
+                <p>Find your new best friend.</p>
+                <ul class="button-bar">
+                    <li><a href="#"><img src="/images/GetItOnGooglePlay_Badge_Web_color_English.png" alt="Google Play"></a></li>
+                    <li><a href="#"><img src="/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="App Store"></a></li>
+                </ul>
+            </div>
+            <figure class="hero-pet">
+                <img src="/images/koala-pixel.png" alt="A cute Koala">
+                <!-- <figcaption></figcaption> -->
+            </figure>
+        </div>
+        <div class="centered-wide split cards">
+            <div>
+                <h2>Why TaskTama?</h2>
+                <p>Battle your procrastination by having your own virtual pet! Play with your pet as you accomplish your tasks.</p>
+            </div>
+            <div>
+                <h2>How does this battle procrastination?</h2>
+                <p>Procrastination is a leading cause of stress. It causes a lot of problems, like lack of sleep. However, your TaskTama pet encourages you to get things done well before they need to be done by rewarding you and your pet when you get things done early.</p>
+            </div>
+            <div>
+                <h2>How do I sign up?</h2>
+                <p>Get it on the App Store.</p>
+            </div>
+        </div>
+
+    </main>
 </body>
 </html>

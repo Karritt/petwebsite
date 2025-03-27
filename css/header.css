@@ -16,7 +16,7 @@ header {
 }
 .header-bar__right {
     display:flex;
-    align-itmes: center;
+    align-items: center;
 }
 .header-links {
     display: flex;
